@@ -1,10 +1,62 @@
 .pizza-card {
+  
   img {
-    max-width: 250px;
+   // max-width: 200px;
+
   }
 
   h3 {
     color: @mainColor;
-    background-color: lighten(@mainColor, 45%);
+   // background-color: lighten(@mainColor, 45%);
+   font-weight: bold;
+  }
+  .description{
+    font-size: 13px;
+    color:rgb(138, 139, 143);
   }
 }
+.icons {
+  display: grid;
+  grid-template-rows: auto auto; 
+  grid-template-columns: auto auto;
+  text-align: center; 
+}
+.btn{
+  background-color:rgb(229, 126, 23) ;
+  color: white; /* Set text color to white */
+  font-family: "Arial", sans-serif; /* Set a different font */
+  box-shadow: 0 2px 4px rgba(229, 126, 23, 0.5); /* Add shadow effect */
+  width:70px;
+  height:35px;
+}
+.not-chosen{
+  color:rgb(229, 126, 23);
+  padding-right: 15px; 
+  padding-left: 15px; 
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.chosen{
+  border: 2px ;
+  color:white;
+  background-color:rgb(229, 126, 23) ;
+  padding-right: 15px; 
+  padding-left: 15px; 
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 5px;
+}
+.one{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.price {
+  margin-top: 2px; /* Adjust the margin as needed */
+}
+
+
+
+
